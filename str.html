@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+<meta charset="utf-8">
+<title>puzzle</title>
+<link rel='stylesheet' type='text/css' href='1.css'>
+<script type="text/javascript" src="jquery.min.js"></script>
+<link href="jquery-ui.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="jquery-ui.min.js"></script>
+ </head>
+ <body>
+ <div id='settings'>
+ <!-- тег input type='file' onchange="название_функции(this.value);-->
+ <input type="file" onchange="start(this.files)">
+ <input id='rows' type='range' min="5" max="10">
+ <input id='cols' type='range' min="5" max="10">
+ </div>
+<div id='game'>
+	<img id='img'>
+</div> 
+<script type="text/javascript" src="forhtml.js"></script>
+ </body>
+</html>
